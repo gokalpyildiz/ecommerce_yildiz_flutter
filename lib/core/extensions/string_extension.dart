@@ -911,7 +911,7 @@ extension UtilExtensions on String {
       'б',
       'ю',
     ];
-    var englishChars = [
+    final englishChars = [
       'A',
       'A',
       'A',

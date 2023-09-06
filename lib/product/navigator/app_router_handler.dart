@@ -1,7 +1,8 @@
 import 'package:auto_route/auto_route.dart';
-import 'app_router.dart';
 
+import 'app_router.dart';
 import 'app_router_handler.gr.dart';
+
 export 'app_router.dart';
 export 'app_router_handler.gr.dart';
 
