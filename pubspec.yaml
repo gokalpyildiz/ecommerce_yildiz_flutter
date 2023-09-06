@@ -8,13 +8,23 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+
+  # Core
+
+  # Database
   shared_preferences: ^2.2.1
+  # Utility
   kartal: ^3.4.1
   responsive_framework: ^1.1.0
   easy_localization: ^3.0.3
   flutter_bloc: ^8.1.3
-  auto_route: ^7.8.3
   get_it: ^7.6.4
+  equatable: ^2.0.5
+  # Firebase
+  
+  # Route
+  auto_route: ^7.8.3
+  
 
 dev_dependencies:
   flutter_test:
@@ -29,4 +39,10 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/translations/
+    - assets/svg/
+    - assets/lottie/
 

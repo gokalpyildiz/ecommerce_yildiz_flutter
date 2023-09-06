@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
       builder: (context, child) => AppBuilder(child).build(),
       title: StringConstants.appName,
       theme: AppTheme(context).theme,
-      //routerConfig: AppDependencyInjection.instance.locator.,
       routerConfig:
           AppDependencyInjection.instance.locator<AppRouterHandler>().config(),
     );
