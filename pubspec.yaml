@@ -10,7 +10,7 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   # Core
-
+  json_annotation: ^4.8.1
   # Database
   shared_preferences: ^2.2.1
   # Utility
@@ -21,9 +21,9 @@ dependencies:
   get_it: ^7.6.4
   equatable: ^2.0.5
   # Firebase
-  
   # Route
   auto_route: ^7.8.3
+  
   
 
 dev_dependencies:
