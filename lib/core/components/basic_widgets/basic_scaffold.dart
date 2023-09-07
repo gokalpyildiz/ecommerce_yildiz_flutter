@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class OccicorPage extends StatefulWidget {
-  const OccicorPage({
+class BasicScaffold extends StatefulWidget {
+  const BasicScaffold({
     required this.child,
     super.key,
     this.appBar,
@@ -22,10 +22,10 @@ class OccicorPage extends StatefulWidget {
   final FloatingActionButtonLocation? floatingActionButtonLocation;
 
   @override
-  _OccicorPageState createState() => _OccicorPageState();
+  _BasicScaffoldState createState() => _BasicScaffoldState();
 }
 
-class _OccicorPageState extends State<OccicorPage> with StateMixin {
+class _BasicScaffoldState extends State<BasicScaffold> with StateMixin {
   @override
   void initState() {
     super.initState();

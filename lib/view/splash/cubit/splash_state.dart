@@ -1,10 +1,18 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 part of 'splash_cubit.dart';
 
-sealed class SplashState extends Equatable {
-  const SplashState();
+class SplashState extends Equatable {
+  const SplashState({this.isFirstInit = true});
+  final bool isFirstInit;
 
   @override
-  List<Object> get props => [];
-}
+  List<Object> get props => [isFirstInit];
 
-final class SplashInitial extends SplashState {}
+  SplashState copyWith({
+    bool? isFirstInit,
+  }) {
+    return SplashState(
+      isFirstInit: isFirstInit ?? this.isFirstInit,
+    );
+  }
+}
